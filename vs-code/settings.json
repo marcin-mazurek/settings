@@ -1,0 +1,10 @@
+{
+  "editor.fontSize": 18,
+  "editor.lineHeight": 31,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "Consolas",
+  "explorer.openEditors.visible": 0,
+  "editor.wordWrap": true,
+  "window.zoomLevel": 0,
+  "editor.cursorBlinking": "phase"
+}
