@@ -53,3 +53,7 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.
 
 # Disable the “Are you sure you want to open this application?” dialog
 defaults write com.apple.LaunchServices LSQuarantine -bool false
+
+# Make keyboard faster
+defaults write -g InitialKeyRepeat -int 10
+defaults write -g KeyRepeat -int 3
