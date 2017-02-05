@@ -3,7 +3,7 @@
 
 # Install packages
 brew install node trash thefuck
-brew cask install google-chrome enpass alfred spectacle boom vlc jitouch
+brew cask install google-chrome enpass alfred spectacle boom vlc jitouch iterm2
 
 # Install ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
