@@ -6,7 +6,10 @@ export DEFAULT_USER="marcin"
 export ZSH_THEME="avit"
 export HYPHEN_INSENSITIVE="true"
 export plugins=(git)
+
+# Set up apps
 source $ZSH/oh-my-zsh.sh
+eval $(thefuck --alias)
 
 # Aliases
 alias ..='cd ..'
