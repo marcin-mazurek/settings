@@ -48,6 +48,9 @@ defaults write com.apple.dashboard mcx-disabled -bool true
 # Don’t show Dashboard as a Space
 defaults write com.apple.dock dashboard-in-overlay -bool true
 
+# Don't show recent tags
+defaults write com.apple.finder ShowRecentTags -bool false
+
 # Disable Notification Center and remove the menu bar icon
 launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist 2> /dev/null
 
@@ -57,3 +60,6 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 # Make keyboard faster
 defaults write -g InitialKeyRepeat -int 10
 defaults write -g KeyRepeat -int 3
+
+# Disable press-and-hold
+defaults write -g ApplePressAndHoldEnabled -bool false
