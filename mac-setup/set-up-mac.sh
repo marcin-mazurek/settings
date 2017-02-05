@@ -63,3 +63,7 @@ defaults write -g KeyRepeat -int 3
 
 # Disable press-and-hold
 defaults write -g ApplePressAndHoldEnabled -bool false
+
+# Git setup
+git config --global user.name "Marcin Mazurek"
+git config --global user.email "marcin@mazurek.pro"
