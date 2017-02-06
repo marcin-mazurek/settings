@@ -62,5 +62,10 @@ git config --global user.email "marcin@mazurek.pro"
 # Disable iTerm quit prompt 
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
-# Disable auto-correction
+# Disable auto-correct and other annoying features
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
+defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
+defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
+defaults write NSGlobalDomain NSAutomaticTextCompletionEnabled -bool false
