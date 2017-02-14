@@ -22,3 +22,4 @@ alias ns="npm start"
 
 # OS tweaks
 alias rm='trash' # Use system trash rather than deleting files automatically
+alias git=hub # Use Hub from GitHub rather than original git CLI

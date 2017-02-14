@@ -3,7 +3,7 @@
 
 # Install packages
 # System utils
-brew install node trash thefuck
+brew install hub node trash thefuck
 # Apps
 brew cask install google-chrome enpass alfred spectacle boom vlc jitouch iterm2 messenger whatsapp skype transmit flux the-unarchiver anki
 # Additional formats for Quick look
