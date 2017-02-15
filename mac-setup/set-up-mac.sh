@@ -58,6 +58,8 @@ defaults write -g ApplePressAndHoldEnabled -bool false
 # Git setup
 git config --global user.name "Marcin Mazurek"
 git config --global user.email "marcin@mazurek.pro"
+# Use diff-so-fancy (https://github.com/so-fancy/diff-so-fancy)
+git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
 
 # Disable iTerm quit prompt 
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
