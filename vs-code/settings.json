@@ -6,5 +6,10 @@
   "explorer.openEditors.visible": 0,
   "editor.wordWrap": true,
   "window.zoomLevel": 0,
-  "editor.cursorBlinking": "phase"
+  "editor.cursorBlinking": "phase",
+  "workbench.colorTheme": "One Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.lineHeight": 1.25,
+  "terminal.integrated.fontFamily": "Menlo"
 }
