@@ -2,7 +2,7 @@
   "editor.fontSize": 18,
   "editor.lineHeight": 31,
   "editor.tabSize": 2,
-  "editor.fontFamily": "Consolas",
+  "editor.fontFamily": "'Operator Mono', Consolas",
   "explorer.openEditors.visible": 0,
   "editor.wordWrap": true,
   "window.zoomLevel": 0,
@@ -11,5 +11,5 @@
   "workbench.iconTheme": "material-icon-theme",
   "terminal.integrated.fontSize": 17,
   "terminal.integrated.lineHeight": 1.25,
-  "terminal.integrated.fontFamily": "Menlo"
+  "terminal.integrated.fontFamily": "Menlo, Consolas"
 }
