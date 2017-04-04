@@ -4,7 +4,7 @@
   "editor.tabSize": 2,
   "editor.fontFamily": "'Operator Mono', Consolas",
   "explorer.openEditors.visible": 0,
-  "editor.wordWrap": true,
+  "editor.wordWrap": "on",
   "window.zoomLevel": 0,
   "editor.cursorBlinking": "phase",
   "workbench.colorTheme": "One Dark",
