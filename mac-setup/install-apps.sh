@@ -3,7 +3,7 @@
 
 # Install packages
 # System utils
-brew install hub node trash thefuck fzf zsh-syntax-highlighting zsh-autosuggestions diff-so-fancy tig
+brew install hub node trash thefuck fzf zsh-syntax-highlighting zsh-autosuggestions diff-so-fancy tig autojump
 # Apps
 brew cask install visual-studio-code google-chrome enpass alfred spectacle boom vlc jitouch iterm2 messenger whatsapp skype transmit flux the-unarchiver anki fbreader
 # Additional formats for Quick look
