@@ -5,7 +5,7 @@ cp ../vs-code/settings.json ~/Library/Application\ Support/Code/User/settings.js
 . ../vs-code/install-extensions.sh
 
 # Copy zsh config
-cp ../zsh/.zshrc ~
+cp .zshrc ~
 
 # Set up git
 git config --global user.name "Marcin Mazurek"
