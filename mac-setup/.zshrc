@@ -5,7 +5,7 @@ export ZSH=/Users/marcin/.oh-my-zsh
 export DEFAULT_USER="marcin"
 export ZSH_THEME="avit"
 export HYPHEN_INSENSITIVE="true"
-export plugins=(git)
+export plugins=(git autojump)
 
 # Set up apps
 source $ZSH/oh-my-zsh.sh
@@ -26,4 +26,5 @@ alias ns="npm start"
 
 # OS tweaks
 alias rm=trash # Use system trash rather than deleting files automatically
-alias git=hub # Use Hub from GitHub rather than original git CLI
+alias ls='exa -lah --git --group-directories-first --time-style=long-iso'
+
