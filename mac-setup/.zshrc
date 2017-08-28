@@ -26,5 +26,4 @@ alias ns="npm start"
 
 # OS tweaks
 alias rm=trash # Use system trash rather than deleting files automatically
-alias ls='exa -lah --git --group-directories-first --time-style=long-iso'
-
+alias ls='exa -lah --git --group-directories-first --time-style=long-iso --ignore-glob=.DS_Store'
