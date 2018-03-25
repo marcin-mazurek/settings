@@ -7,9 +7,26 @@
   "editor.wordWrap": "on",
   "window.zoomLevel": 0,
   "editor.cursorBlinking": "phase",
-  "workbench.colorTheme": "One Dark",
+  "workbench.colorTheme": "One Dark Theme",
   "workbench.iconTheme": "material-icon-theme",
   "terminal.integrated.fontSize": 17,
-  "terminal.integrated.lineHeight": 1.25,
-  "terminal.integrated.fontFamily": "Menlo, Consolas"
+  "terminal.integrated.lineHeight": 1.35,
+  "terminal.integrated.fontFamily": "Menlo, Consolas",
+  "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": false,
+  "material-icon-theme.showUpdateMessage": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressUpdateNotice": true,
+    "suppressWelcomeNotice": false
+  },
+  "gitlens.keymap": "alternate",
+  "html-css-class-completion.includeGlobPattern": "**/*.{css,html,js,jsx}",
+  "trailing-spaces.trimOnSave": true
 }
