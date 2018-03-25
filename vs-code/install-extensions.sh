@@ -1,3 +1,10 @@
 code --install-extension PKief.material-icon-theme
 code --install-extension WallabyJs.quokka-vscode
 code --install-extension azemoh.theme-onedark
+code --install-extension NuclleaR.vscode-extension-auto-import
+code --install-extension PKief.material-icon-theme
+code --install-extension Zignd.html-css-class-completion
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension donjayamanne.githistory
+code --install-extension eamodio.gitlens
+code --install-extension shardulm94.trailing-spaces
