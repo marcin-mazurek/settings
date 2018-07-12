@@ -13,3 +13,7 @@ brew install Caskroom/cask/qlmobi
 
 # Install ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Install cht.sh
+curl https://cht.sh/:cht.sh > /usr/local/bin/cht.sh
+chmod +x /usr/local/bin/cht.sh
