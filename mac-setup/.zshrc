@@ -28,3 +28,11 @@ alias help="cht.sh"
 # OS tweaks
 alias rm=trash # Use system trash rather than deleting files automatically
 alias ls='exa -lah --git --group-directories-first --time-style=long-iso --ignore-glob=.DS_Store'
+
+# Hello text
+echo "\nUseful commands:"
+echo "$(tput setaf 4)help$(tput sgr0) - cheatsheet from cheat.sh"
+
+echo "\Performance stuff:"
+echo "$(tput setaf 4)pretty-bytes$(tput sgr0) - outputs file size in an understandable format"
+echo "$(tput setaf 4)gzip-size$(tput sgr0) - shows gzipped-size of a file"
