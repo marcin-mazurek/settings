@@ -33,6 +33,6 @@ alias ls='exa -lah --git --group-directories-first --time-style=long-iso --ignor
 echo "\nUseful commands:"
 echo "$(tput setaf 4)help$(tput sgr0) - cheatsheet from cheat.sh"
 
-echo "\Performance stuff:"
+echo "\nPerformance stuff:"
 echo "$(tput setaf 4)pretty-bytes$(tput sgr0) - outputs file size in an understandable format"
 echo "$(tput setaf 4)gzip-size$(tput sgr0) - shows gzipped-size of a file"
