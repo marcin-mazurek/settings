@@ -13,6 +13,7 @@ brew install Caskroom/cask/qlmobi
 
 # Install ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
 # Install cht.sh
 curl https://cht.sh/:cht.sh > /usr/local/bin/cht.sh
