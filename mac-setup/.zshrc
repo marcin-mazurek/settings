@@ -3,9 +3,10 @@ cd ~/Projects
 # ZSH configuration
 export ZSH=/Users/marcin/.oh-my-zsh
 export DEFAULT_USER="marcin"
-export ZSH_THEME="avit"
 export HYPHEN_INSENSITIVE="true"
 export plugins=(git autojump)
+export ZSH_THEME="powerlevel9k/powerlevel9k"
+export POWERLEVEL9K_MODE='nerdfont-complete'
 
 # Set up apps
 source $ZSH/oh-my-zsh.sh
@@ -22,7 +23,6 @@ alias ....='cd ../../..'
 alias zshconf='vi ~/.zshrc && source ~/.zshrc'
 alias proj='cd ~/Projects'
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-alias ns="npm start"
 alias help="cht.sh"
 
 # OS tweaks
