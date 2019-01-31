@@ -11,6 +11,8 @@ cp .zshrc ~
 git config --global user.name "Marcin Mazurek"
 git config --global user.email "marcin@mazurek.pro"
 git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
+git config --global push.default current
+git config --global pull.rebase true
 
 # Disable iTerm quit prompt 
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
