@@ -7,7 +7,7 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 
 # Install packages
 ## System utils
-brew install hub node trash thefuck fzf zsh-syntax-highlighting zsh-autosuggestions diff-so-fancy tig autojump exa
+brew install hub node trash thefuck fzf zsh-syntax-highlighting zsh-autosuggestions diff-so-fancy tig autojump exa jq
 ## Docker
 brew cask install docker
 brew install bash-completion docker-completion docker-compose-completion docker-machine-completion
