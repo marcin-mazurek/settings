@@ -1,20 +1,18 @@
-# Install brew
+# Install Brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
-# Install packages
-# System utils
-brew install hub node trash thefuck fzf zsh-syntax-highlighting zsh-autosuggestions diff-so-fancy tig autojump exa
-npm install --global pretty-bytes gzip-size
-# Apps
-brew cask install visual-studio-code google-chrome enpass alfred spectacle boom vlc jitouch iina iterm2 messenger whatsapp skype transmit flux the-unarchiver anki fbreader commander-one
-# Additional formats for Quick look
-brew cask install qlcolorcode qlmarkdown qlstephen quicklook-json betterzipql qlimagesize
-brew install Caskroom/cask/qlmobi
 
 # Install ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 
-# Install cht.sh
-curl https://cht.sh/:cht.sh > /usr/local/bin/cht.sh
-chmod +x /usr/local/bin/cht.sh
+# Install packages
+## System utils
+brew install hub node trash thefuck fzf zsh-syntax-highlighting zsh-autosuggestions diff-so-fancy tig autojump exa
+## Docker
+brew cask install docker
+brew install bash-completion docker-completion docker-compose-completion docker-machine-completion
+## Apps
+brew cask install visual-studio-code google-chrome enpass alfred spectacle vlc jitouch iterm2 messenger transmit flux the-unarchiver anki fbreader commander-one
+## Additional formats for Quick look
+brew cask install qlcolorcode qlmarkdown qlstephen quicklook-json betterzipql qlimagesize
+brew install Caskroom/cask/qlmobi
