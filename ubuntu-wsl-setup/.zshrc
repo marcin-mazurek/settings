@@ -16,8 +16,10 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 # ZSH config
-plugins=(git)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting node npm npx nvm)
+
 source $ZSH/oh-my-zsh.sh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # action on startup
 cd ~
