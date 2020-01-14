@@ -1,10 +1,12 @@
-export ZSH="/home/marcin/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 export LS_COLORS='ow=01;36;40'
-export DEFAULT_USER="marcin"
+export DEFAULT_USER="osboxes"
 export HYPHEN_INSENSITIVE="true"
-export DOCKER_HOST=tcp://localhost:2375
-export GOPATH="/home/marcin/projects/go"
-export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin:~/.local/bin
+export GOPATH="$HOME/projects/go"
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin:~/.local/bin:/snap/bin
+
+# aliases
+alias git=hub
 
 # initialize pure prompt
 fpath+=("$HOME/.zsh/pure")
@@ -22,4 +24,4 @@ source $ZSH/oh-my-zsh.sh
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # action on startup
-cd ~
+cd $HOME/projects
