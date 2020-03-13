@@ -9,7 +9,7 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 ## System utils
 brew install hub nvm trash fzf zsh-syntax-highlighting zsh-autosuggestions diff-so-fancy tig autojump exa jq
 ## Docker
-brew cask install docker enpass
+brew cask install docker
 brew install bash-completion docker-completion docker-compose-completion docker-machine-completion
 ## Apps
 brew cask install visual-studio-code google-chrome enpass alfred spectacle vlc jitouch iterm2 messenger transmit flux the-unarchiver anki fbreader commander-one
