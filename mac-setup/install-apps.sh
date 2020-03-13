@@ -12,7 +12,7 @@ brew install hub nvm trash fzf zsh-syntax-highlighting zsh-autosuggestions diff-
 brew cask install docker
 brew install bash-completion docker-completion docker-compose-completion docker-machine-completion
 ## Apps
-brew cask install visual-studio-code google-chrome enpass alfred spectacle vlc jitouch iterm2 messenger transmit flux the-unarchiver anki fbreader commander-one
+brew cask install visual-studio-code google-chrome enpass alfred spectacle vlc jitouch iterm2 messenger transmit flux the-unarchiver commander-one
 ## Additional formats for Quick look
 brew cask install qlcolorcode qlmarkdown qlstephen quicklook-json betterzipql qlimagesize
 brew install Caskroom/cask/qlmobi
