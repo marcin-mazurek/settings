@@ -7,7 +7,7 @@ git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
 
 # Install packages
 ## System utils
-brew install hub nvm trash fzf zsh-syntax-highlighting zsh-autosuggestions diff-so-fancy tig autojump exa jq
+brew install hub nvm trash fzf zsh-syntax-highlighting zsh-autosuggestions diff-so-fancy tig autojump exa jq bat
 ## Docker
 brew cask install docker google-cloud-cli
 brew install bash-completion docker-completion docker-compose-completion docker-machine-completion
