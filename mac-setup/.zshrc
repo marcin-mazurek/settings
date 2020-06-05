@@ -24,6 +24,7 @@ alias zshconf='vi ~/.zshrc && source ~/.zshrc'
 alias proj='cd ~/Projects'
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias help="cht.sh"
+alias cat=bat
 
 # OS tweaks
 alias rm=trash # Use system trash rather than deleting files automatically
